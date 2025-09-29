@@ -1,0 +1,76 @@
+What each discussion file must contain:
+
+  The attendances to the meeting, 
+  Progress since the previous meeting, especially the state of the completion of actions. 
+  A list of actions to take place after the meeting, and 
+  Issues to be solved. 
+
+Allocation of Responsibilities. 
+Each member of the coursework group must be responsible to the development of one the following subsystems:
+
+  USU Student App: a mobile app to run on smart phones for students to participate in the student union’s activities.  
+  
+  Student Union Management System: a web-based application to run on desktop or tablet computer for officers of university-specific student union to manage and operate the student union. 
+
+  USU Operation System: a web-based application to run on desktop or tablet computer for USU officers to manage the USU federation of student unions and realise its functions. 
+
+  Society Leader App: a mobile app to run on mobile phones and on desktop or tablet computers for society leader to organise and operator societies. 
+
+Note: 
+(1) The members of the team should work on different subsystems, while the whole team should develop a coherent system where the subsystems interact with each other. 
+(2) Each subsystem will inevitably have two parts: one part on the user’s computer or mobile device and another part running on servers on the cloud. The parts on the Cloud that belong to different subsystems should be properly integrated so that they interact with each other to enable functions to deliver to various types of users.  Moreover, there may well be components running on the Cloud common to more than one subsystem and/or do not belong to any specific subsystem. The team should also work together to perform the software engineering activities in order to develop such common components. 
+
+
+
+Task 2: Analysis and Specify Software Quality Requirements (20 Marks):
+
+In this task, each member of the team will work as a requirements analyst to produce a document that defines the quality requirements on your subsystem. You are required to submit a document as a part of the coursework submission that defines the quality requirements on ONE functional requirement given in the case study document. The definition of quality requirements should clearly specify the requirements on the following quality attributes. 
+Security and Privacy protection
+  Performance
+  Reliability
+  Scalability
+
+
+Task 3: Specification and Modelling Software Functional Requirements (20 Marks)
+
+In this task, you will work as a requirements analyst to produce a UML model of the software system to be developed using the software modelling tool Papyrus. The UML model should contain the following types of models. 
+  Use Case Model (10 Marks, Individual effort): Each member of the team should develop one Use Case Diagram to define the use cases of the subsystem to specify the scope of the software engineering project. 
+  Activity Model (10 Marks, Individual effort): Each team member should select one use case of your subsystem to produce one Activity Diagram for the selected use case to specify the interactions between a user and the subsystem. 
+
+
+
+
+Task 4: Software Architectural Design (20 Marks)
+
+In this task, you will work as a software architect to produce an Architectural Design of the system in the microservices architectural style. The design should be at two different levels as follows. 
+  Architecture of the subsystem (10 Marks, Individual effort): Each member of the team should produce an architectural design of your subsystem with focus on the microservices your subsystem provides and the microservices that your subsystem requests and other subsystems provides. 
+  Architecture of the whole system (10 Marks, Team effort): The team should produce an architectural design of the whole system through integrating the subsystems together. 
+
+Note: 
+  You should specify the architectural designs in the UML component diagrams with a set of component nodes that represent microservices and a set of interfaces to represent the APIs that are the connectors between them. 
+  The components and connectors in architectural designs, including their methods and parameters, should be specified in a textual documentation to define their functionalities and meanings. 
+  In this part of the design, you are not required to give the internal structure of the components, which will be the work of the task on detailed design. 
+
+
+
+
+Task 5: Software Detailed Design (20 Marks)
+
+In this task, you will work as a software designer to produce a Detailed Design of the subsystem for object-oriented implementation of the components (i.e. the microservices) in your architectural design of the subsystem. The design should specify the components from both structural and behavioural aspects in UML. 
+  Structural Model (10 Marks, Individual effort): Each student should select one component in the architectural design of your subsystem and develop a Class Diagram to define the structure of the component. 
+
+Note: 
+
+  The selected component must be in the architectural model of your subsystem, but not in any other subsystems. 
+  The UML class diagram must contain the classes and relationships between them. You must give the attributes and methods of the classes. 
+  The class model must be consistent with the architectural design that you made in Task 4. 
+
+Behaviour Model (10 Marks, Individual effort): Each student should produce a UML Sequence Diagram for the same component selected in Task 5(a) to define the dynamic behaviour of the component.  
+
+Note: 
+  The sequence diagram should specify the internal process of the interactions between the objects inside the component. It must be consistent with the structural model that you produced in Task 5(a). 
+  The behaviour model must cover all possible scenarios of the operations of the component using advanced modelling facilities such as frames. 
+
+
+
+
